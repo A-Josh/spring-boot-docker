@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: joshayeni/springboot-app
+        image: joshayeni/springboot-docker
         ports:
         - containerPort: 8080
         env:
